@@ -1,0 +1,77 @@
+* {
+  font-family: "exo 2", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100%;
+}
+body {
+  background-image: url("../imgs/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li {
+  display: inline-flex;
+  margin: 1em;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 1em;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+header {
+  margin: 2em;
+}
+header p {
+  margin: 3em;
+  text-transform: capitalize;
+}
+footer {
+  margin: 4em;
+}
+footer figure {
+  display: flex;
+  justify-content: space-between;
+}
+footer figure a img {
+  width: 9vw;
+  height: 11vh;
+}
+/*clases*/
+
+.header {
+  background-color: beige;
+}
+.colortxt {
+  color: beige;
+}
+.textcenter {
+  text-align: center;
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.menu-item span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.menu-item .price {
+  color: #666;
+}
